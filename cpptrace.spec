@@ -11,6 +11,9 @@ License:	MIT
 URL:		https://github.com/jeremy-rifkin/%{name}
 Source0:	https://github.com/jeremy-rifkin/%{name}/archive/v%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:	cmake
+BuildRequires:	make
+BuildRequires:	gcc-c++
 BuildRequires:	pkgconfig(libdwarf)
 BuildRequires:	pkgconfig(libunwind)
 BuildRequires:	pkgconfig(libzstd)
