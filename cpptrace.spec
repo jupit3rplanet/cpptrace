@@ -1,10 +1,11 @@
 %define major 0
 %define libname %mklibname cpptrace %{major}
 %define devname %mklibname -d cpptrace
+%global __requires_exclude ^cmake\(libdwarf\)$
 
 Name:		cpptrace
 Version:	1.0.4
-Release:	1
+Release:	2
 Summary:	Simple, portable, and self-contained stacktrace library for C++11 and newer
 Group:		Development/C++
 License:	MIT
@@ -41,6 +42,7 @@ Shared library for cpptrace, a portable C++ stacktrace library.
 %package -n %{devname}
 Summary:	Development files for cpptrace
 Requires:	%{libname} = %{EVRD}
+Requires:	pkgconfig(libdwarf)
 Provides:	%{name}-devel = %{EVRD}
 
 %description -n %{devname}
