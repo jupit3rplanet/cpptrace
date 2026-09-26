@@ -5,7 +5,7 @@
 
 Name:		cpptrace
 Version:	1.0.4
-Release:	1
+Release:	2
 Summary:	Simple, portable, and self-contained stacktrace library for C++11 and newer
 Group:		Development/C++
 License:	MIT
