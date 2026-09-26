@@ -23,7 +23,6 @@ BuildOption:	-DBUILD_SHARED_LIBS=ON
 BuildRequires:	pkgconfig(libdwarf)
 BuildRequires:	pkgconfig(libunwind)
 BuildRequires:	pkgconfig(libzstd)
-BuildRequires:	libcxxabi
 
 %description
 Cpptrace is a simple and portable C++ stacktrace library supporting
