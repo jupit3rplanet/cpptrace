@@ -54,6 +54,5 @@ stacktrace library.
 %files -n %{devname}
 %{_libdir}/libcpptrace.so
 %{_libdir}/cmake/cpptrace
-%{_libdir}/pkgconfig/cpptrace.pc
 %{_includedir}/cpptrace
 %{_includedir}/ctrace
